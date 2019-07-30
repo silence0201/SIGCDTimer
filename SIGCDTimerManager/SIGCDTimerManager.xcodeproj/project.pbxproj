@@ -13,6 +13,7 @@
 		E84F5C5922F07AFC00428D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84F5C5822F07AFC00428D35 /* Assets.xcassets */; };
 		E84F5C5C22F07AFC00428D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84F5C5A22F07AFC00428D35 /* LaunchScreen.storyboard */; };
 		E84F5C5F22F07AFC00428D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E84F5C5E22F07AFC00428D35 /* main.m */; };
+		E84F5C6822F07B6400428D35 /* SITimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E84F5C6722F07B6400428D35 /* SITimerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E84F5C5B22F07AFC00428D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E84F5C5D22F07AFC00428D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E84F5C5E22F07AFC00428D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E84F5C6622F07B6400428D35 /* SITimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SITimerManager.h; sourceTree = "<group>"; };
+		E84F5C6722F07B6400428D35 /* SITimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITimerManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		E84F5C4E22F07AFC00428D35 /* SIGCDTimerManager */ = {
 			isa = PBXGroup;
 			children = (
+				E84F5C6522F07B4A00428D35 /* SITimerManager */,
 				E84F5C4F22F07AFC00428D35 /* AppDelegate.h */,
 				E84F5C5022F07AFC00428D35 /* AppDelegate.m */,
 				E84F5C5222F07AFC00428D35 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				E84F5C5E22F07AFC00428D35 /* main.m */,
 			);
 			path = SIGCDTimerManager;
+			sourceTree = "<group>";
+		};
+		E84F5C6522F07B4A00428D35 /* SITimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				E84F5C6622F07B6400428D35 /* SITimerManager.h */,
+				E84F5C6722F07B6400428D35 /* SITimerManager.m */,
+			);
+			path = SITimerManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				E84F5C5422F07AFC00428D35 /* ViewController.m in Sources */,
 				E84F5C5F22F07AFC00428D35 /* main.m in Sources */,
 				E84F5C5122F07AFC00428D35 /* AppDelegate.m in Sources */,
+				E84F5C6822F07B6400428D35 /* SITimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
